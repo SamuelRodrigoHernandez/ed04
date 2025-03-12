@@ -8,13 +8,13 @@ import java.util.List;
  * @autor SamuelRodrigoHernandez.
  * @version 1.0 11/03/2025.
  */
-public class Agenda {
+public class agendaContacto {
     private List<Contacto> contacts; // Lista de Contacto
 
     /**
      * Crea una agenda de contactos con una lista de array.
      */
-    public Agenda() {
+    public agendaContacto() {
         this.contacts = new ArrayList<>();
     }
 
